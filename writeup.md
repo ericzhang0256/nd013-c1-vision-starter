@@ -53,8 +53,6 @@ some images are blurry due to the weather condition and some images are deep dar
    <div align=center>
       <img src="./results/EDA/Class_distribution.png" width="800"/>
    </div>
-   
-   Find: [Exploratory Data Analysis.ipynb](./ExploratoryDataAnalysis.ipynb)
 
 ### Cross validation
 Since we already have 3 tfrecords available in the `/home/workspace/data/waymo/test` directory. We only need to split the data into `train` and `val` directory.
