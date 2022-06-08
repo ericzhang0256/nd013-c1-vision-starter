@@ -66,7 +66,7 @@ the training, we should make sure the evenly distributed the data. We must **Ran
   - **Pretrained model**  
   
     - Model: **`ssd_resnet50_v1_fpn_640x640_coco17_tpu-8`**
-    - Pipeline: [here](./experiments/Reference/pipeline_new.config)
+    - Pipeline: [here](./experiments/reference/pipeline_new.config)
     
     The loss of model decreased but still too high. The precision and recall is very low, seems the model haven't learning much from trainset.
 
