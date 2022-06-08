@@ -158,7 +158,7 @@ the training, we should make sure the evenly distributed the data. We must **Ran
   - **Experiment4**
 
     - Model: **`ssd_resnet50_v1_fpn_640x640_coco17_tpu-8`**
-    - Pipeline: [here](./experiments/experiment3/pipeline_new.config) 
+    - Pipeline: [here](./experiments/experiment4/pipeline_new.config) 
   
     **Main changes vs Experiment1**:
 
