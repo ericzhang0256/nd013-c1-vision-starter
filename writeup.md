@@ -5,7 +5,7 @@ For this project, we are going to build an object detection model based on the c
 Computer version is the core technology of self_driving system. Just like human eyes to detect and classify objects on the road and support self_driving car to make a correct decision on its own.
 
 ## Set up
-I will use the classroom workspace, all the environment, necessary libraries and datas are already available.
+I will use the classroom workspace, all the environment, necessary libraries and data are already available.
 To run the code in this repository:
 
   - `step1`: **Exploratory data analysis**
@@ -159,11 +159,10 @@ the training, we should make sure the evenly distributed the data. We must **Ran
     - Pipeline: [here](./experiments/experiment4/pipeline_new.config) 
   
     **Main changes vs Experiment1**:
-
-      ```
+    ```
       1. Increase batch_size: 4 --> 8
       2. Change learning rate: warmup(0.013333 --> 0.0002), base(0.04 --> 0.01)
-     ```
+    ```
     
     In order to validation the assumption above, try to increase the batch size based on experiment1, meanwhile reduce the learning rate. In the end, the result is very similar as the experiment3
     and can be acceptable. 
